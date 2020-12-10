@@ -2,8 +2,9 @@
   "name": "topological-reads",
   "version": "1.0.0",
   "description": "A service for creating and sharing non-linear reading lists",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
