@@ -4,8 +4,9 @@
   "description": "A service for creating and sharing non-linear reading lists",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -16,12 +17,20 @@
   ],
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  },
   "bugs": {
     "url": "https://github.com/topological-reads/topological-reads/issues"
   },
   "homepage": "https://github.com/topological-reads/topological-reads#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "mongodb": "^3.6.3"
+    "mongodb": "^3.6.3",
+    "bootstrap": "^4.5.3",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.12.9"
   }
 }
